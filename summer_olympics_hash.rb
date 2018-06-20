@@ -1,10 +1,12 @@
 
 def create_olympics_hash
-  # Implement this method so that it returns a hash with the data provided on README.md
+  olympics = {"Sydney" => "2000", "Athens" => "2004", "Bejing" => "2008", "London" => "2012"
 end
 
 def add_a_key_value_pair
-  # Implement this method so that it adds a key value pair to the hash created in create_olympics_hash
+  olympics = create_olympics_hash
+  olympics[:Atlanta] = "2006"
+  return olympics
 end
 
 def iterate_through_hash
